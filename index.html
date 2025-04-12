@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Spectra</title>
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+ <nav class="nav">
+   <div class="logo">Spectra</div><!--logo-->
+   <ul class="nav-links">
+     <li><a href="#">Home</a></li>
+     <li class="dropdown">
+       <a href="#products">Products <i class="fa-solid fa-caret-down"></i></a>
+       <div class="dropdown-content">
+        <a href="#p1" onclick="showSection('p1')">Men's Polo T-Shirts</a>
+        <a href="#p2" onclick="showSection('p2')">Men's Long Sleeve T-Shirts</a>
+        <a href="#p3" onclick="showSection('p3')">Men's Casual Shorts</a>
+        <a href="#p4" onclick="showSection('p4')">Men's Joggers</a>
+        <a href="#p5" onclick="showSection('p5')">Men's Throusers</a>
+        <a href="#p6" onclick="showSection('p6')">Men's Sports wear</a>
+      </div>
+     </li>
+     <li><a href="#sales">Sales</a></li>
+     <li><a href="#">About Us</a></li>
+   </ul>
+   <div class="log" id="user-icon"><i class="fa-solid fa-user"></i></div>
+ </nav>
+
+ <div class="hero-container">
+   <div class="hero-content">
+     <h1>Welcome To</h1>
+     <p>Spectra</p>
+     <button class="cta-button">Explore Collection</button>
+   </div>
+   <div class="hero-image">
+     <!-- Image will be set as background in CSS -->
+   </div>
+ </div>
+
+  <section id="p1" class="section">
+  <h2 class="f1">Men's Polo T-Shirts</h2>
+  <div class="pro-container">
+    <div class="pro">
+      <img src="3.png" class="img3">
+      <h5>Tribal Sands</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h4>$32</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="4.png" class="img3">
+      <h5>Echoes Button-Up</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h4>$35</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="5.png" class="img3">
+      <h5>Verdant Echo</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h4>$36</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="6.png" class="img3">
+      <h5>Rustic Bloom</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <h4>$39</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="7.png" class="img3">
+      <h5>Mosaic Harmony</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h4>$35</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="8.png" class="img3">
+      <h5>Olive Trail Plaid</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h4>$42</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="p2" class="section" style="display: none;">
+  <h2 class="f1">Men's Long Sleeve T-Shirts</h2>
+  <div class="pro-container">
+    <div class="pro">
+      <img src="3.png" class="img3">
+      <h5>Tribal Sands</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h4>$32</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="4.png" class="img3">
+      <h5>Echoes Button-Up</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h4>$35</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="5.png" class="img3">
+      <h5>Verdant Echo</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h4>$36</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="6.png" class="img3">
+      <h5>Rustic Bloom</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <h4>$39</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="7.png" class="img3">
+      <h5>Mosaic Harmony</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h4>$35</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="8.png" class="img3">
+      <h5>Olive Trail Plaid</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h4>$42</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+     </div>
+    </div>
+  </section>
+
+  <section id="p3" class="section" style="display: none;">
+  <h2 class="f1">Men's Casual Shorts</h2>
+  <div class="pro-container">
+    <div class="pro">
+      <img src="3.png" class="img3">
+      <h5>Tribal Sands</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h4>$32</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="4.png" class="img3">
+      <h5>Echoes Button-Up</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h4>$35</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="5.png" class="img3">
+      <h5>Verdant Echo</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h4>$36</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="6.png" class="img3">
+      <h5>Rustic Bloom</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <h4>$39</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="7.png" class="img3">
+      <h5>Mosaic Harmony</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h4>$35</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    
+    <div class="pro">
+      <img src="8.png" class="img3">
+      <h5>Olive Trail Plaid</h5>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h4>$42</h4>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+     </div>
+    </div>
+  </section>
+
+  <section id="p4" class="section" style="display: none;">
+    <h2 class="f1">Men's Joggers</h2>
+    <div class="pro-container">
+      <div class="pro">
+        <img src="3.png" class="img3">
+        <h5>Tribal Sands</h5>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+        <h4>$32</h4>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+      
+      <div class="pro">
+        <img src="4.png" class="img3">
+        <h5>Echoes Button-Up</h5>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <h4>$35</h4>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+      
+      <div class="pro">
+        <img src="5.png" class="img3">
+        <h5>Verdant Echo</h5>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+        <h4>$36</h4>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+      
+      <div class="pro">
+        <img src="6.png" class="img3">
+        <h5>Rustic Bloom</h5>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h4>$39</h4>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+      
+      <div class="pro">
+        <img src="7.png" class="img3">
+        <h5>Mosaic Harmony</h5>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <h4>$35</h4>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+      
+      <div class="pro">
+        <img src="8.png" class="img3">
+        <h5>Olive Trail Plaid</h5>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+        <h4>$42</h4>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+       </div>
+      </div>
+  </section>
+
+  <section id="p5" class="section" style="display: none;">
+      <h2 class="f1">Men's Throusers</h2>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="3.png" class="img3">
+          <h5>Tribal Sands</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <h4>$32</h4>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+        
+        <div class="pro">
+          <img src="4.png" class="img3">
+          <h5>Echoes Button-Up</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>$35</h4>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+        
+        <div class="pro">
+          <img src="5.png" class="img3">
+          <h5>Verdant Echo</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <h4>$36</h4>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+        
+        <div class="pro">
+          <img src="6.png" class="img3">
+          <h5>Rustic Bloom</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$39</h4>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+        
+        <div class="pro">
+          <img src="7.png" class="img3">
+          <h5>Mosaic Harmony</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>$35</h4>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+        
+        <div class="pro">
+          <img src="8.png" class="img3">
+          <h5>Olive Trail Plaid</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <h4>$42</h4>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+         </div>
+        </div>
+  </section>
+
+  <section id="p6" class="section" style="display: none;">
+        <h2 class="f1">Men's Sports wear</h2>
+        <div class="pro-container">
+          <div class="pro">
+            <img src="3.png" class="img3">
+            <h5>Tribal Sands</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>$32</h4>
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+          
+          <div class="pro">
+            <img src="4.png" class="img3">
+            <h5>Echoes Button-Up</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h4>$35</h4>
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+          
+          <div class="pro">
+            <img src="5.png" class="img3">
+            <h5>Verdant Echo</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>$36</h4>
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+          
+          <div class="pro">
+            <img src="6.png" class="img3">
+            <h5>Rustic Bloom</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>$39</h4>
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+          
+          <div class="pro">
+            <img src="7.png" class="img3">
+            <h5>Mosaic Harmony</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h4>$35</h4>
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+          
+          <div class="pro">
+            <img src="8.png" class="img3">
+            <h5>Olive Trail Plaid</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>$42</h4>
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+           </div>
+          </div>
+  </section>
+  
+  <div id="sales" class = "sale">
+          <h2 class="f1">Sales</h2>
+          <div class="pro-container">
+            <div class="pro">
+              <img src="3.png" class="img3">
+              <h5>Tribal Sands</h5>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <h4>$32</h4>
+              <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            
+            <div class="pro">
+              <img src="4.png" class="img3">
+              <h5>Echoes Button-Up</h5>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h4>$35</h4>
+              <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            
+            <div class="pro">
+              <img src="5.png" class="img3">
+              <h5>Verdant Echo</h5>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <h4>$36</h4>
+              <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            
+            <div class="pro">
+              <img src="6.png" class="img3">
+              <h5>Rustic Bloom</h5>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4>$39</h4>
+              <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            
+            <div class="pro">
+              <img src="7.png" class="img3">
+              <h5>Mosaic Harmony</h5>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h4>$35</h4>
+              <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            
+            <div class="pro">
+              <img src="8.png" class="img3">
+              <h5>Olive Trail Plaid</h5>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <h4>$42</h4>
+              <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+             </div>
+            </div>
+  </div>
+
+  <footer id = "newsletter" class = "ft" style="width:100%;">
+    <div class = "col">
+        <h4>Contact us</h4>
+        <p><strong>Address : </strong>21 Hawlock Road Galle</p>
+        <p><strong>Phone : </strong>+94 401 4565</p>
+        <p><strong>Hours :    </strong> 24/7 Work Support</p>
+        <div class = "follow">
+            <h4>Follow</h4>
+        </div>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+    </div>
+    <div class = "col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">New Arrivals</a>
+        <a href="#">offers</a>
+        <a href="#">Contact us</a>
+   </div>
+   <div class = "col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">Log in</a>
+        <a href="#">My cart</a>
+        <a href="#">Help</a>
+   </div>
+   <div class ="insta">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class ="row1">
+            <i class="fa-brands fa-google-play"></i>
+            <i class="fa-brands fa-app-store-ios"></i>
+        </div>
+        <p>Secure Payment Gateway</p>
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-brands fa-cc-apple-pay"></i>
+        <i class="fa-brands fa-cc-paypal"></i>
+        <i class="fa-brands fa-cc-amazon-pay"></i>
+   </div>
+   <div class = "copyright">
+    <p><i class="fa-regular fa-copyright"></i>All Rights recieved by Spectra</p>
+   </div>
+</footer>
+</body>
+
+<script>
+  function showSection(sectionId) {
+    // Don't hide other sections, just scroll to the selected one
+    document.getElementById(sectionId).scrollIntoView({behavior: 'smooth'});
+
+    const sections = document.getElementsByClassName('section');
+    for (let i = 0; i < sections.length; i++) {
+        sections[i].classList.remove('active-section');
+    }
+    
+    document.getElementById(sectionId).classList.add('active-section');
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.getElementsByClassName('section');
+      for (let i = 0; i < sections.length; i++) {
+        sections[i].style.display = 'block';
+      }
+  });
+  </script>
+</html>
